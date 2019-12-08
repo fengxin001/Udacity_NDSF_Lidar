@@ -1,24 +1,24 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/xin/my_workspace/SFND/LidarProject/SFND_Lidar_Obstacle_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5cee0/fast && /usr/bin/make -f CMakeFiles/cmTC_5cee0.dir/build.make CMakeFiles/cmTC_5cee0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_80bbd/fast && /usr/bin/make -f CMakeFiles/cmTC_80bbd.dir/build.make CMakeFiles/cmTC_80bbd.dir/build
 make[1]: Entering directory '/home/xin/my_workspace/SFND/LidarProject/SFND_Lidar_Obstacle_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5cee0.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5cee0.dir/src.c.o   -c /home/xin/my_workspace/SFND/LidarProject/SFND_Lidar_Obstacle_Detection/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_5cee0
-/snap/cmake/177/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cee0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_5cee0.dir/src.c.o  -o cmTC_5cee0 
-CMakeFiles/cmTC_5cee0.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_80bbd.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_80bbd.dir/src.c.o   -c /home/xin/my_workspace/SFND/LidarProject/SFND_Lidar_Obstacle_Detection/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_80bbd
+/snap/cmake/177/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80bbd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_80bbd.dir/src.c.o  -o cmTC_80bbd 
+CMakeFiles/cmTC_80bbd.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x5b): undefined reference to `pthread_join'
 src.c:(.text+0x6f): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5cee0.dir/build.make:86: recipe for target 'cmTC_5cee0' failed
-make[1]: *** [cmTC_5cee0] Error 1
+CMakeFiles/cmTC_80bbd.dir/build.make:86: recipe for target 'cmTC_80bbd' failed
+make[1]: *** [cmTC_80bbd] Error 1
 make[1]: Leaving directory '/home/xin/my_workspace/SFND/LidarProject/SFND_Lidar_Obstacle_Detection/build/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_5cee0/fast' failed
-make: *** [cmTC_5cee0/fast] Error 2
+Makefile:121: recipe for target 'cmTC_80bbd/fast' failed
+make: *** [cmTC_80bbd/fast] Error 2
 
 
 Source file was:
@@ -44,20 +44,20 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/xin/my_workspace/SFND/LidarProject/SFND_Lidar_Obstacle_Detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_62130/fast && /usr/bin/make -f CMakeFiles/cmTC_62130.dir/build.make CMakeFiles/cmTC_62130.dir/build
+Run Build Command(s):/usr/bin/make cmTC_2098a/fast && /usr/bin/make -f CMakeFiles/cmTC_2098a.dir/build.make CMakeFiles/cmTC_2098a.dir/build
 make[1]: Entering directory '/home/xin/my_workspace/SFND/LidarProject/SFND_Lidar_Obstacle_Detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_62130.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_62130.dir/CheckFunctionExists.c.o   -c /snap/cmake/177/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_62130
-/snap/cmake/177/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62130.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_62130.dir/CheckFunctionExists.c.o  -o cmTC_62130  -lpthreads 
+Building C object CMakeFiles/cmTC_2098a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2098a.dir/CheckFunctionExists.c.o   -c /snap/cmake/177/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2098a
+/snap/cmake/177/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2098a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2098a.dir/CheckFunctionExists.c.o  -o cmTC_2098a  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_62130.dir/build.make:86: recipe for target 'cmTC_62130' failed
-make[1]: *** [cmTC_62130] Error 1
+CMakeFiles/cmTC_2098a.dir/build.make:86: recipe for target 'cmTC_2098a' failed
+make[1]: *** [cmTC_2098a] Error 1
 make[1]: Leaving directory '/home/xin/my_workspace/SFND/LidarProject/SFND_Lidar_Obstacle_Detection/build/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_62130/fast' failed
-make: *** [cmTC_62130/fast] Error 2
+Makefile:121: recipe for target 'cmTC_2098a/fast' failed
+make: *** [cmTC_2098a/fast] Error 2
 
 
 
